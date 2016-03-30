@@ -1,7 +1,0 @@
-/home/aalexiadis/Desktop/e-books/spring-data-thymeleaf-boilerplate/web/src/main/java/gr/djapal/web/config/MvcConfig.java
-/home/aalexiadis/Desktop/e-books/spring-data-thymeleaf-boilerplate/web/src/main/java/gr/djapal/web/config/WebInitializer.java
-/home/aalexiadis/Desktop/e-books/spring-data-thymeleaf-boilerplate/web/src/main/java/gr/djapal/web/controller/LoginController.java
-/home/aalexiadis/Desktop/e-books/spring-data-thymeleaf-boilerplate/web/src/main/java/gr/djapal/web/controller/AbstractViewController.java
-/home/aalexiadis/Desktop/e-books/spring-data-thymeleaf-boilerplate/web/src/main/java/gr/djapal/web/config/ThymeleafConfig.java
-/home/aalexiadis/Desktop/e-books/spring-data-thymeleaf-boilerplate/web/src/main/java/gr/djapal/web/controller/UserController.java
-/home/aalexiadis/Desktop/e-books/spring-data-thymeleaf-boilerplate/web/src/main/java/gr/djapal/web/config/WebSecurityConfig.java
