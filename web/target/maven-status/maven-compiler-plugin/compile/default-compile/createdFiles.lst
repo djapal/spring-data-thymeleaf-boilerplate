@@ -1,0 +1,7 @@
+gr/djapal/web/controller/UserController.class
+gr/djapal/web/controller/AbstractViewController.class
+gr/djapal/web/controller/LoginController.class
+gr/djapal/web/config/WebSecurityConfig.class
+gr/djapal/web/config/MvcConfig.class
+gr/djapal/web/config/WebInitializer.class
+gr/djapal/web/config/ThymeleafConfig.class
