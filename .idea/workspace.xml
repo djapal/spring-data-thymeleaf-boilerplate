@@ -1131,15 +1131,15 @@
       <option name="number" value="Default" />
       <updated>1459317279919</updated>
       <workItem from="1459317281225" duration="25038000" />
-      <workItem from="1459407619164" duration="1970000" />
+      <workItem from="1459407619164" duration="2075000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27008000" />
+    <option name="totallyTimeSpent" value="27113000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1922" height="1056" extended-state="6" />
+    <frame x="-1" y="0" width="1922" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
