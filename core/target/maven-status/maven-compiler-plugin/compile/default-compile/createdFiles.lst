@@ -1,0 +1,3 @@
+gr/djapal/core/persistence/repository/UserRepository.class
+gr/djapal/core/persistence/model/User.class
+gr/djapal/core/persistence/config/PersistenceJPAConfig.class

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.attoparser:attoparser:2.0.0.BETA05">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/attoparser/attoparser/2.0.0.BETA05/attoparser-2.0.0.BETA05.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/attoparser/attoparser/2.0.0.BETA05/attoparser-2.0.0.BETA05-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/attoparser/attoparser/2.0.0.BETA05/attoparser-2.0.0.BETA05-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

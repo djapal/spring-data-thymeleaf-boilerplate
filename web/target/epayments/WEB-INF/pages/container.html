@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>[[${title}]]</title>
+
+<link th:href="@{/resources/css/bootstrap.min.css}" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" th:href="@{/resources/css/app.css}" />
+
+<body class="nav-md">
+    <div class="container body">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Demo</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a th:href="@{/welcome}">Home</a></li>
+                        <li><a th:href="@{/admin/users}" sec:authorize="hasRole('ADMIN')">Users</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a sec:authorize="isAuthenticated()" th:href="@{/logout}">Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="main_container">
+            <div class="right_col" role="main">
+                <div class="">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!-- content starts here -->
+                            <div th:replace="${view} :: content">...</div>
+                            <!-- content ends here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.12.2.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <div th:replace="${view} :: javascript">...</div>
+
+</body>
+</html>
