@@ -3,10 +3,6 @@ body {
     padding-bottom: 20px;
 }
 
-body, #mainWrapper, .form-control{
-    font-size:12px !important;
-}
-
 #mainWrapper {
         padding-left: 10px;
        padding-right: 10px;
