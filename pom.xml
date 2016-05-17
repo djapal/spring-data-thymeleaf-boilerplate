@@ -19,7 +19,7 @@
         <spring.version>4.2.5.RELEASE</spring.version>
         <spring.data.version>1.9.4.RELEASE</spring.data.version>
         <spring.security.version>4.0.4.RELEASE</spring.security.version>
-        <thymeleaf.version>3.0.0.BETA02</thymeleaf.version>
+        <thymeleaf.version>3.0.0.RELEASE</thymeleaf.version>
     </properties>
 
     <build>
