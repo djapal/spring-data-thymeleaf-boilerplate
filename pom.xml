@@ -16,10 +16,11 @@
 
     <properties>
         <hibernate.version>5.1.0.Final</hibernate.version>
-        <spring.version>4.2.6.RELEASE</spring.version>
-        <spring.data.version>1.10.1.RELEASE</spring.data.version>
-        <spring.security.version>4.1.0.RELEASE</spring.security.version>
-        <thymeleaf.version>3.0.0.RELEASE</thymeleaf.version>
+        <spring.version>4.3.12.RELEASE</spring.version>
+        <spring.data.version>1.11.8.RELEASE</spring.data.version>
+        <spring.security.version>4.2.3.RELEASE</spring.security.version>
+        <thymeleaf.version>3.0.9.RELEASE</thymeleaf.version>
+        <thymeleaf.extas.version>3.0.2.RELEASE</thymeleaf.extas.version>
     </properties>
 
     <build>

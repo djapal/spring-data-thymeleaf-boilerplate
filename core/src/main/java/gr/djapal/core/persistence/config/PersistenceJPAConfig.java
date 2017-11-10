@@ -17,10 +17,6 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 import javax.persistence.EntityManagerFactory;
 import javax.sql.DataSource;
 
-/**
- * @author djapal
- *
- */
 @Configuration
 @EnableJpaRepositories(basePackages = "gr.djapal.core.persistence")
 @EnableTransactionManagement

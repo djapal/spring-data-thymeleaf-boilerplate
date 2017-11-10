@@ -1,10 +1,5 @@
 package gr.djapal.web.config;
 
-/**
- * @author djapal
- *
- */
-
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.context.annotation.Bean;
